@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    /* background-color: #111010; */
+    /* color: #333; */
+  
+    background-image: url('"E:\Programming Languages\movies_recommendation\static\images\image.jpg"'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+}
+
+h1 {
+    text-align: center;
+    color: #fffcfc;
+    margin-bottom: 40px;
+    
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fffbfb;
+
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+    color: #fff8f8;
+
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #646060;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #360505;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: #fffafa;
+
+}
+
+.recommendation {
+    text-align: center;
+    margin: 15px;
+    flex: 1 1 200px;
+    color: #fff0f0;
+
+}
+
+.recommendation img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.recommendation img:hover {
+    transform: scale(1.05);
+}
