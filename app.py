@@ -77,14 +77,12 @@
 
 
 
-
 from flask import Flask, request, render_template
 import pickle
 import requests
 import pandas as pd
 
 app = Flask(__name__)
-
 # Load the movie list and similarity matrix
 movies = pickle.load(open('movie_new.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
